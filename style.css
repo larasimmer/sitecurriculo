@@ -48,7 +48,7 @@
 .aboutresume {
 	height: 50rem;
 	position: relative;
-	border: 0.05rem solid #ced4da;
+	border-bottom: 0.05rem solid #ced4da;
 }
 
 .about {
@@ -114,7 +114,7 @@
 .experience {
 	height: 80rem;
 	position: relative;
-	border: 0.05rem solid #ced4da;
+	border-bottom: 0.05rem solid #ced4da;
 }
 
 .workexperience {
@@ -165,7 +165,7 @@
 .education {
 	height: 50rem;
 	position: relative;
-	border: 0.05rem solid #ced4da;
+	border-bottom: 0.05rem solid #ced4da;
 }
 
 .educationhistory {
@@ -216,7 +216,7 @@
 .skills {
 	height: 50rem;
 	position: relative;
-	border: 0.05rem solid #ced4da;
+	border-bottom: 0.05rem solid #ced4da;
 }
 
 .skillsihave {
@@ -269,7 +269,7 @@
 .interests {
 	height: 50rem;
 	position: relative;
-	border: 0.05rem solid #ced4da;
+	border-bottom: 0.05rem solid #ced4da;
 }
 
 .interestsihave {
@@ -297,7 +297,7 @@
 .certificates {
 	height: 50rem;
 	position: relative;
-	border: 0.05rem solid #ced4da;
+	border-bottom: 0.05rem solid #ced4da;
 }
 
 .certificates-courses {
@@ -324,3 +324,36 @@
 
 .certificatesitens li:before {
 	content: "🏆  "
+}
+
+@media screen and (max-width: 480px) {
+	.left {
+		width: 100%;
+		height: 7%;
+	}
+
+	#profilepicture, .menu li a {
+		display: none;
+	}
+
+	.container, .aboutresume, .experience, .education, .skills, .interests, .certificates {
+		width: 100%;
+		margin: 0;
+	}
+
+	.about {
+		padding-top: 6rem;
+	}
+
+	.experience {
+		height: 132rem;
+	}
+
+	.educationhistory {
+		padding-top: 12rem;
+	}
+
+	.skills, .interests, .certificates {
+		padding-top: 9rem;
+	}
+}
