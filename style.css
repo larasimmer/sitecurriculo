@@ -11,9 +11,9 @@
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 50%;
-	border: 7px solid #a7aadb;
-	width: 9rem;
-	height: 9rem;
+	border: 7.5px solid #a7aadb;
+	width: 9.5rem;
+	height: 9.5rem;
 	margin-top: 10rem;
 }
 
@@ -38,4 +38,103 @@
 	color: rgba(255, 255, 255, 1)
 }
 
-font-family: 'Saira Extra Condensed', sans-serif;
+.container {
+	z-index: -1;
+	width: 82%;
+	height: 100%;
+	margin-left: 18%;
+}
+
+.aboutresume {
+	height: 50rem;
+	position: relative;
+	border: 0.05rem solid #ced4da;
+}
+
+.about {
+	padding-left: 4rem;
+	padding-top: 20%;
+}
+
+.about h1 {
+	text-transform: uppercase;
+	font-size: 5rem;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-weight: 800;
+	color: #343a40;
+}
+
+.about h1 span {
+	color: #6d72c3;
+}
+
+.personalinformation li {
+	display: inline-block;
+	color: #6c757d;
+	text-transform: uppercase;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-weight: 500;
+	font-size: 1.4rem;
+	margin-top: 1rem;
+}
+
+.personalinformation li:last-child {
+	color: #6d72c3;
+	text-decoration: underline;
+}
+
+.about p {
+	font-family: 'Mulish', sans-serif;
+	color: #6c757d;
+	width: 85%;
+	margin-top: 3.5rem;
+}
+
+.socialmediaitens li {
+	display: inline-block;
+	margin-top: 3.5rem;
+	padding-right: 1.8rem;
+}
+
+.socialmediaitens li a {
+	font-size: 1.6rem;
+	color: white;
+	background: #495057;
+	border-radius: 100%;
+	padding: 0.8rem 1rem 0.8rem 1rem;
+	text-align: center;
+}
+
+.socialmediaitens li a:hover {
+	background: #6d72c3;
+}
+
+.experience {
+	height: 100%;
+	position: relative;
+	border: 0.05rem solid #ced4da;
+}
+
+.education {
+	height: 100%;
+	position: relative;
+	border: 0.05rem solid #ced4da;
+}
+
+.skills {
+	height: 100%;
+	position: relative;
+	border: 0.05rem solid #ced4da;
+}
+
+.interests {
+	height: 100%;
+	position: relative;
+	border: 0.05rem solid #ced4da;
+}
+
+.certificates {
+	height: 100%;
+	position: relative;
+	border: 0.05rem solid #ced4da;
+}
