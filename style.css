@@ -31,7 +31,7 @@
 	text-transform: uppercase;
 	font-family: 'Mulish', sans-serif;
 	font-weight: bold;
-	color: rgba(255, 255, 255, 0.55)
+	color: rgba(255, 255, 255, 0.55);
 }
 
 .menu li a:hover {
@@ -274,7 +274,7 @@
 
 .interestsihave {
 	padding-left: 4rem;
-	padding-top: 30%;
+	padding-top: 23%;
 }
 
 .interestsihave h1 {
@@ -302,6 +302,7 @@
 
 .certificates-courses {
 	padding-left: 4rem;
+	padding-top: 22%;
 }
 
 .certificates-courses h1 {
@@ -320,3 +321,6 @@
 	line-height: 1.5rem;
 	padding-left: 1.5rem;
 }
+
+.certificatesitens li:before {
+	content: "🏆  "
