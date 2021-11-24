@@ -345,8 +345,15 @@
 	.botao-menu-mobile {
 		display:block;
 		text-align: right;
-		padding-top: 10px;
+		padding-top: 9px;
 		padding-right: 10px;
+	}
+
+	#botao-menu-mobile {
+		font-size: 2rem;
+		background-color: transparent;
+		border: none;
+		color: white;
 	}
 
 	.container, .aboutresume, .experience, .education, .skills, .interests, .certificates {
