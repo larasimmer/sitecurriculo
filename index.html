@@ -10,23 +10,26 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 	</head>
 	<body>
-		<div class="left">
-				<img src="foto.jpg" id="profilepicture" alt="A picture showing Lara Simmer's face">
+		<div class="left" id="div-left">
+			<div class="botao-menu-mobile">
+				<button id="botao-menu-mobile"><i class="fas fa-bars"></i></button>
+			</div>
+				<img src="foto.jpg" id="profilepicture" alt="A profile picture">
 				<nav>
-					<ul class="menu">
-						<li><a href="#about">About</a></li>
-						<li><a href="#workexperience">Experience</a></li>
-						<li><a href="#educationhistory">Education</a></li>
-						<li><a href="#skillsihave">Skills</a></li>
-						<li><a href="#interestsihave">Interests</a></li>
-						<li><a href="#certificates-courses">Certificates</a></li>
-					</ul>
+  					<div>
+						<ul class="menu">
+							<li><a id="nav-about" href="#about">About</a></li>
+							<li><a id="nav-workexperience" href="#workexperience">Experience</a></li>
+							<li><a id="nav-educationhistory" href="#educationhistory">Education</a></li>
+							<li><a id="nav-skillsihave" href="#skillsihave">Skills</a></li>
+							<li><a id="nav-interestsihave" href="#interestsihave">Interests</a></li>
+							<li><a id="nav-certificates-courses" href="#certificates-courses">Certificates</a></li>
+						</ul>
+					</div>
 				</nav>
 		</div>
 		<main>
@@ -145,5 +148,6 @@
 				</div>
 			</div>
 		</main>
+		<script type="text/javascript" src="index.js"></script>
 	</body>
 </html>

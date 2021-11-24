@@ -17,6 +17,10 @@
 	margin-top: 10rem;
 }
 
+.botao-menu-mobile {
+	display: none;
+}
+
 .menu {
 	text-align: center;
 	margin-top: 1.5rem;
@@ -329,11 +333,20 @@
 @media screen and (max-width: 480px) {
 	.left {
 		width: 100%;
+		/*height: 100%;*/
 		height: 7%;
 	}
 
 	#profilepicture, .menu li a {
+		/*display: block;*/
 		display: none;
+	}
+
+	.botao-menu-mobile {
+		display:block;
+		text-align: right;
+		padding-top: 10px;
+		padding-right: 10px;
 	}
 
 	.container, .aboutresume, .experience, .education, .skills, .interests, .certificates {
@@ -346,11 +359,15 @@
 	}
 
 	.experience {
-		height: 132rem;
+		height: 138rem;
 	}
 
 	.educationhistory {
 		padding-top: 12rem;
+	}
+
+	.workexperienceitens li h4 {
+		padding-top: 1.5rem;
 	}
 
 	.skills, .interests, .certificates {
