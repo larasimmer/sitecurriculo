@@ -16,6 +16,8 @@ var navInterestsIHave = document.getElementById('nav-interestsihave');
 
 var navCertificates = document.getElementById('nav-certificates-courses');
 
+var w = window.innerWidth;
+
 botaoMobile.onclick = clickBotao
 
 var statusMenu = "fechado";
@@ -34,6 +36,12 @@ function clickBotao() {
 
 		statusMenu = "aberto";
 	} else {
+		fecharMenu();
+	}
+}
+
+function fecharMenu () {
+	if (ehResponsivo() == true) {
 		divLeft.style.height = "7%";
 		profilePicture.style.display = "none";
 		navAbout.style.display = "none";
@@ -45,5 +53,25 @@ function clickBotao() {
 
 		statusMenu = "fechado";
 	}
-	
 }
+
+navAbout.addEventListener("click",fecharMenu);
+
+navWorkExperience.addEventListener("click",fecharMenu);
+
+navEducationHistory.addEventListener("click",fecharMenu);
+
+navSkillsIHave.addEventListener("click",fecharMenu);
+
+navInterestsIHave.addEventListener("click",fecharMenu);
+
+navCertificates.addEventListener("click",fecharMenu);
+
+function ehResponsivo() {
+        if (w <= 480) {
+        	return true;
+        } else {
+        	return false;
+        }
+};
+
